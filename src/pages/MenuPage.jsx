@@ -208,7 +208,7 @@ function Menu() {
         {menu?.slug && (
   <div className="qr-section">
    {/*<QRCode
-      value={`https://qr-user-menu.netlify.app/`}
+      value={`https://rq-rricura.netlify.app/ `}
       size={220}
     /> */}
     
