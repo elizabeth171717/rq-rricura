@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BACKEND_URL } from "../constants/constants";
 import QRCode from "react-qr-code";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import LOGO from "../assets/rricura-logo.png";
 import {
   faPhone,
   faClock,
@@ -71,10 +71,8 @@ function Menu() {
         {/* Menu */}
         {!loading && menu?.sections && (
           <>
-            <h1 className="restaurant-name">
-              {menu.restaurantName}
-            </h1>
-
+           
+<img className="logo" src={LOGO}/>
 <div className="restaurant-info">
 <div className="left-box">
  

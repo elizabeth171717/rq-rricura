@@ -14,12 +14,10 @@
  
 }
 
-.restaurant-name{
-  background-color: red;
-  color: white;
-  padding: 1rem;
+.logo{
+  width: 50%;
+  margin: 1rem .50rem;
 }
-
 .restaurant-info{
   width: 100%;
   display: flex;
