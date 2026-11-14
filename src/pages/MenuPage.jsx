@@ -12,7 +12,7 @@ import {
 import { optimizeImage } from "../utils/optimizeImage"
 
 const CLIENT_ID = "anahuac";
-const RESTAURANT_SLUG = "rricura-tamales";
+const RESTAURANT_SLUG = "panchos-mexican-restaurant";
 
 function Menu() {
   const [menu, setMenu] = useState(null);
