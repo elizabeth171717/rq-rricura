@@ -1,21 +1,7 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Menu from './pages/MenuPage'
-import './App.css'
+import Menu from "./pages/MenuPage";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={<Navigate to="/menu/panchos-mexican-restaurant" replace />}
-        />
-
-        <Route path="/menu/:slug" element={<Menu />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <Menu />;
 }
 
-
-export default App
+export default App;
