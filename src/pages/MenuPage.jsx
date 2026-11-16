@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BACKEND_URL } from "../constants/constants";
 import QRCode from "react-qr-code";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import LOGO from "../assets/rricura-logo.png";
+import LOGO from "../assets/panchos.png";
 import {
   faPhone,
   faClock,
@@ -25,6 +25,7 @@ function Menu() {
       try {
         const res = await fetch(
           `${BACKEND_URL}/api/${CLIENT_ID}/public-menu/${RESTAURANT_SLUG}`
+          
         );
 
         const data = await res.json();
@@ -77,7 +78,7 @@ function Menu() {
 <div className="left-box">
  
   <p>
-    <FontAwesomeIcon icon={faClock} /> Mon–Sat 7AM–9PM
+    <FontAwesomeIcon icon={faPhone} />  (404) 325-2898
   </p>
   </div>
 <div className="right-box">
